@@ -26,8 +26,8 @@ public class SSLServerExample {
 		// load up the key store
 		String STORETYPE = "JKS";
 		String KEYSTORE = "keystore.jks";
-		String STOREPASSWORD = "storepassword";
-		String KEYPASSWORD = "keypassword";
+		String STOREPASSWORD = "qweasd123";
+		String KEYPASSWORD = "qweasd123";
 
 		KeyStore ks = KeyStore.getInstance( STORETYPE );
 		File kf = new File( KEYSTORE );
